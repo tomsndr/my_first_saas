@@ -5,3 +5,11 @@ export function MyButton() {
     </button>
   );
 }
+
+export function WikiButton() {
+  return (
+    <button className="hover:bg-blue-200">
+      Wikipedia
+    </button>
+  );
+}
